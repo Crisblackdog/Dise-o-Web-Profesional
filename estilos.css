@@ -1,0 +1,308 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins';
+}
+
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  background-image: url(imagenes/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 750px;
+      background-size: contain;
+}
+
+.menu{
+  background: #fff;
+  padding: 9px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 1px 1px 8px #ccc;
+  z-index: 1;
+}
+
+.menu .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .contenedor-inicio {
+  display: flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+header .titular, header .imagen {
+  width: 40%;
+  margin-top: 70px;
+}
+
+header h1  {
+  font-family: 'Rubik';
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 50px #000;
+}
+
+header p {
+  color :#fff;
+  line-height: 30px;
+}
+header .imagen img {
+  width: 100%;
+  
+}
+.boton{
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.dominios { 
+  display: flex;
+  
+}
+.dominios li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+span.punto {
+  color: #1776ff;
+  font-size: 24px;
+}
+span.dominio{
+  color:#000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.anio {
+  color: #999;
+  font-size: 14px;
+  
+}
+/* seccion services */
+
+#services {
+  padding-top: 120px;
+}
+
+#services .contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+#services .titular{
+  width: 49%;
+}
+
+#services .service{
+  width: 25%;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px 24px 24px 24px;
+  padding: 20px 30px;
+}
+#services h2, #pricing h2 {
+  font-family: 'rubik';
+  font-weight: 500;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+#services h3, #pricing h3 {
+  font-weight: 500;
+  font-size: 38px;
+}
+
+#services .boton {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+.service h4 {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Rubik';
+}
+
+.service p {  
+  color: 787878;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.service a {
+  color: #2970fa;
+  text-decoration: none;
+  font-family: 'Rubik';
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.contenedor-services-2{
+  margin-top: 60px;
+}
+
+.contenedor-services-2 #dos {
+  position: relative;
+  top: -150px;
+}
+
+#services #uno {
+  margin-left: 152px;
+}
+
+/* PRICING */
+
+#pricing {
+  padding-top: 90px;
+}
+
+#pricing h2, #pricing h3{
+  text-align: center;
+  margin: 0;
+}
+
+#pricing h3 {
+  font-weight: bold;
+}
+
+.contenedor-precios {
+  display: flex;
+  justify-content: space-around;
+}
+
+#pricing .tablas {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 90px 160px 0px rgb(0, 0, 0, 0.2);
+  padding: 20px 59px;
+}
+
+#pricing ul {
+  padding: 0;
+}
+
+#pricing .tablas li:nth-child(1) {
+  font-family: 'Rubik';
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+#pricing .tablas .dolar{
+  position:absolute;
+  color: #999;
+  font-size: 18px;
+}
+
+#pricing .tablas .numero{
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 14px;
+}
+
+#pricing .month{
+  color: #999;
+
+}
+
+#pricing .tablas li:nth-child(2){
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+}
+
+#pricing  .item{
+  color: #ff8f00;
+  margin-top: 27px;
+
+}
+
+#pricing #two .item{
+  color: #296ffa;
+}
+
+#pricing #three .item{
+  color: #2acf8d;
+}
+
+#pricing .item span {
+  color:#999
+}
+
+#pricing #one a{
+  color:#ff8f00;
+  background: rgba(255, 143, 0, 0.2);
+}
+
+#pricing #two a{
+  color:#fff;
+  background: #296ffa
+}
+#pricing #three a{
+  color:#2acf8d;
+  background: rgba(41, 207, 141, 0.2);
+}
+
+#pricing #two li:nth-child(1){
+  color: #296ffa;
+}
+
+#pricing #three li:nth-child(1){
+  color: #2acf8d;
+}
+
+#pricing .hidden{
+  color: #ccc;
+}
+
+#pricing .tablas{
+  position: relative;
+}
+#pricing hr{
+  position:absolute;
+  top: 151px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d;
+}
